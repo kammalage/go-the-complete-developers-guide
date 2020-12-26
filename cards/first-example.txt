@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	//var card string = "Ace of Spades" explicit declaration
+	card := "Ace of Spades" //the ':=' operator is used and go will figure out what type it is
+	// ':=' only need to be used on intialization
+
+	card = "Five of Diamonds"
+
+	fmt.Println(card)
+}
